@@ -10,7 +10,7 @@ export default function SignInFullPage() {
 
   const handleFinish = (values) => {
     console.log("Login Data:", values);
-    navigate("/signup");
+    navigate("/AuthPortal/signup");
   };
 
   return (
@@ -97,7 +97,7 @@ export default function SignInFullPage() {
           </Form>
 
           <p style={{ textAlign: "center" }}>
-            Don&apos;t have an Account? <Link to="/signup">Sign Up</Link>
+            Don&apos;t have an Account? <Link to="/AuthPortal/signup">Sign Up</Link>
           </p>
         </div>
       </Content>

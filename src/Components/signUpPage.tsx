@@ -13,7 +13,7 @@ export default function SignUp() {
 
   const handleFinish = (values) => {
     console.log("Form Submitted:", values);
-    navigate("/"); // Redirect after signup
+    navigate("/AuthPortal/"); // Redirect after signup
   };
 
   const prefixSelector = (
