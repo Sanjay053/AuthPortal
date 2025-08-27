@@ -1,12 +1,58 @@
-# React + Vite
+# AuthPortal
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+AuthPortal is a simple React application that demonstrates **Sign In** and **Sign Up** functionality using **React Router** and **Ant Design** for UI.  
+It allows users to register and log in with a clean and responsive interface.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## 📦 Installation & Setup
 
-## Expanding the ESLint configuration
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/Sanjay053/AuthPortal.git
+   cd AuthPortal
+Install the dependencies:
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+bash
+Copy code
+npm install
+Start the development server:
+
+bash
+Copy code
+npm run dev
+The app will run locally at 👉 http://localhost:5173
+
+🌐 Live Demo
+Check out the live deployed version here:
+👉 AuthPortal Live App
+
+🛠️ Tech Stack
+React 19
+
+Vite
+
+React Router DOM
+
+Ant Design
+
+GitHub Pages (for deployment)
+
+📖 About
+This project is a basic authentication portal where users can:
+
+Sign Up (Register a new account)
+
+Sign In (Log in to an existing account)
+
+It’s a simple demo project to practice React, routing, and UI with Ant Design.
+
+vbnet
+Copy code
+
+✅ Covers:  
+- How to install packages  
+- How to run locally  
+- Live server URL  
+- Short description of project (Sign In & Sign Up)
+  
